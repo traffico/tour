@@ -1,0 +1,79 @@
+body, * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#section-one{
+    background: url(./app.jpg) no-repeat center ;
+   
+    /* background-position: center; */
+    background-size: cover;
+    /* padding-bottom: 300px; */
+    position: relative;
+    height: 900px;
+    padding-top: 562px;
+}
+
+#take-picture-section{
+    line-height: 56px;
+   margin-right: auto;
+    /* float: left; */
+    width: 330px;
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.861);
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+#tour-download-btn{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    background-color: rgba(38, 136, 38, 0.983);
+    color: white;
+    border-radius: 3px;
+}
+
+#take-tour-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    top: 80px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(129, 112, 112, 0.404);
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 730px) {
+    /* body{
+        background-color: cadetblue;
+    } */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    #section-two{
+        display: flex;
+        flex-direction: column;
+    }
+    #img{
+        width: 100%;
+    }
+    #section-three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 38px;
+    }
+}
+
